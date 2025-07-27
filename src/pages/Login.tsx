@@ -21,12 +21,12 @@ const links = [
                 <Link to="" className="bg-linear-to-t from-sky-700 via-sky-400 to-sky-700  text-center flex justify-center items-center  rounded w-13 text-red text-[14px] my-3 text-shadow tracking-tight"><ChevronLeft size={18} strokeWidth={3.25} absoluteStrokeWidth/>Dos</Link>
                 <div className="flex items-center space-x-1">
                     <LogIn size={20} color="#660000" strokeWidth={2.5} />
-                    <h3 className="text-[#660000] flex text-xl font-semibold">Authentifiés</h3>
+                    <h3 className="text-[#660000] flex text-xl font-semibold serif font-serif">Authentifiés</h3>
                 </div>
                 <LoginFields />
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center mt-20 mx-4">
+            <div className="flex flex-col justify-center items-center text-center mt-20 mb-10 mx-4">
                 <img src="/mc_visa.png" alt="Visa" width={100}/>
                 <img src="company_za.png" alt="Company_za" width={200} />
                 <div>
