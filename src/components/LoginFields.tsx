@@ -48,6 +48,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           onChange={handleChange}
           placeholder="Nom d'utilisateur"
           className="flex-1 bg-transparent text-gray-600 placeholder-gray-500 outline-none"
+          required
         />
       </div>
 
@@ -62,6 +63,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
           onChange={handleChange}
           placeholder="Mot de passe"
           className="flex-1 bg-transparent text-gray-600 placeholder-gray-500 outline-none"
+          required
         />
       </div>
             {/* Checkbox rester connecté */}
