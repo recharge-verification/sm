@@ -1,12 +1,12 @@
-// src/App.tsx
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Login from "./pages/Login";
+import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import Login from "./users/Login";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Login />} /> {/* Login devient la page d'accueil */}
+        <Route path="/users/login" element={<Login />} />
+        <Route path="*" element={<Navigate to="/users/login" replace />} />
       </Routes>
     </Router>
   );
