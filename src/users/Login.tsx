@@ -26,7 +26,7 @@ const links = [
                 <LoginFields />
             </div>
 
-            <div className="flex flex-col justify-center items-center text-center mt-17 mb-40 mx-4">
+            <div className="flex flex-col justify-center items-center text-center mt-17 mb-40 mx-7">
                 <img src="/mc_visa.png" alt="Visa" width={100}/>
                 <img src="/company_za.png" alt="Company_za" width={200} />
                 <div>
