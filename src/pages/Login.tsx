@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import Header from "../../components/Header";
+import Header from "../components/Header";
 import { ChevronLeft, LogIn } from "lucide-react";
-import LoginFields from "../../components/LoginFields";
+import LoginFields from "../components/LoginFields";
 
 export default function Login(){
 const links = [

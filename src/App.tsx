@@ -1,11 +1,11 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom"
-import Login from "./pages/users/Login"
+import Login from "./pages/Login"
 
 function App() {
   return (
     <Router basename="/">
       <Routes>
-        <Route path="/users/login" element={<Login />} />
+        <Route path="/login" element={<Login />} />
         {/* Ajoutez ceci pour gérer les 404 */}
         <Route path="/" element={<Login />} />
       </Routes>
