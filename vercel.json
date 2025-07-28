@@ -1,0 +1,14 @@
+{
+  "rewrites": [
+    { "source": "/users/login", "destination": "/index.html" },
+    { "source": "/users/:path*", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "Cache-Control", "value": "no-store" }
+      ]
+    }
+  ]
+}
