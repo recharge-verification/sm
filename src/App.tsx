@@ -1,12 +1,11 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Login from "./users/Login";
 
 function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/users/login" element={<Login />} />
-        <Route path="*" element={<Navigate to="/users/login" replace />} />
+        <Route path="*" element={<Login />} />
       </Routes>
     </Router>
   );
