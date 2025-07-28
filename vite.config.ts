@@ -4,14 +4,5 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [react(), tailwindcss(),],
-   base: '/', // Important pour les routes
-  build: {
-    outDir: 'dist',
-    rollupOptions: {
-      output: {
-        manualChunks: undefined,
-      }
-    }
-  }
+  plugins: [react(), tailwindcss(),]
 })
