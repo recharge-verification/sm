@@ -8,6 +8,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         {/* Ajoutez ceci pour gérer les 404 */}
         <Route path="/" element={<Login />} />
+        <Route path="*" element={<Login />} />
       </Routes>
     </Router>
   )
