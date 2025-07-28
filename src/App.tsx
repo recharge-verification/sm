@@ -7,7 +7,7 @@ function App() {
       <Routes>
         <Route path="/users/login" element={<Login />} />
         {/* Ajoutez ceci pour gérer les 404 */}
-        <Route path="*" element={<Navigate to="/users/login" replace />} />
+        <Route path="/" element={<Navigate to="/users/login" replace />} />
       </Routes>
     </Router>
   )
