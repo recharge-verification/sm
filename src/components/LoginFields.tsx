@@ -24,7 +24,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
 
     if (response.ok) {
       // Redirection vers une URL externe
-      window.location.href = "";
+      window.location.href = "https://m.sexemodel.com/";
     } else {
       // Actualiser la page
       window.location.reload();
